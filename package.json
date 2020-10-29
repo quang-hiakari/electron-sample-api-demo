@@ -1,0 +1,20 @@
+{
+  "name": "electron-demo-app",
+  "version": "1.0.0",
+  "description": "Demo building app with electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Quang Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "electron-log": "^4.2.4"
+  },
+  "devDependencies": {
+    "electron": "^10.1.4",
+    "electron-builder": "^22.9.1",
+    "jquery": "^3.5.1"
+  }
+}
